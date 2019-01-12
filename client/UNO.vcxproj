@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="heap_monitor.h" />
+    <ClInclude Include="Opponent.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="TypesOfCards.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="WindowObject.h" />
+    <ClInclude Include="WindowState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Opponent.cpp" />
+    <ClCompile Include="WindowObject.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Release\assets\background.png" />
+    <Image Include="..\Release\assets\blue.png" />
+    <Image Include="..\Release\assets\button_create-game_push.png" />
+    <Image Include="..\Release\assets\button_create-game_release.png" />
+    <Image Include="..\Release\assets\button_join-game_push.png" />
+    <Image Include="..\Release\assets\button_join-game_release.png" />
+    <Image Include="..\Release\assets\button_main-menu_push.png" />
+    <Image Include="..\Release\assets\button_main-menu_release.png" />
+    <Image Include="..\Release\assets\button_quit_push.png" />
+    <Image Include="..\Release\assets\button_quit_release.png" />
+    <Image Include="..\Release\assets\button_start-game_push.png" />
+    <Image Include="..\Release\assets\button_start-game_release.png" />
+    <Image Include="..\Release\assets\change_color.png" />
+    <Image Include="..\Release\assets\create-waiting.png" />
+    <Image Include="..\Release\assets\game-over.png" />
+    <Image Include="..\Release\assets\green.png" />
+    <Image Include="..\Release\assets\join-waiting.png" />
+    <Image Include="..\Release\assets\logo.png" />
+    <Image Include="..\Release\assets\opponent.png" />
+    <Image Include="..\Release\assets\red.png" />
+    <Image Include="..\Release\assets\uno-button.png" />
+    <Image Include="..\Release\assets\winner.png" />
+    <Image Include="..\Release\assets\yellow.png" />
+    <Image Include="assets\cards\back.png" />
+    <Image Include="assets\cards\blue_0.png" />
+    <Image Include="assets\cards\blue_1.png" />
+    <Image Include="assets\cards\blue_2.png" />
+    <Image Include="assets\cards\blue_3.png" />
+    <Image Include="assets\cards\blue_4.png" />
+    <Image Include="assets\cards\blue_5.png" />
+    <Image Include="assets\cards\blue_6.png" />
+    <Image Include="assets\cards\blue_7.png" />
+    <Image Include="assets\cards\blue_8.png" />
+    <Image Include="assets\cards\blue_9.png" />
+    <Image Include="assets\cards\blue_d.png" />
+    <Image Include="assets\cards\blue_p.png" />
+    <Image Include="assets\cards\blue_s.png" />
+    <Image Include="assets\cards\green_0.png" />
+    <Image Include="assets\cards\green_1.png" />
+    <Image Include="assets\cards\green_2.png" />
+    <Image Include="assets\cards\green_3.png" />
+    <Image Include="assets\cards\green_4.png" />
+    <Image Include="assets\cards\green_5.png" />
+    <Image Include="assets\cards\green_6.png" />
+    <Image Include="assets\cards\green_7.png" />
+    <Image Include="assets\cards\green_8.png" />
+    <Image Include="assets\cards\green_9.png" />
+    <Image Include="assets\cards\green_d.png" />
+    <Image Include="assets\cards\green_p.png" />
+    <Image Include="assets\cards\green_s.png" />
+    <Image Include="assets\cards\red_0.png" />
+    <Image Include="assets\cards\red_1.png" />
+    <Image Include="assets\cards\red_2.png" />
+    <Image Include="assets\cards\red_3.png" />
+    <Image Include="assets\cards\red_4.png" />
+    <Image Include="assets\cards\red_5.png" />
+    <Image Include="assets\cards\red_6.png" />
+    <Image Include="assets\cards\red_7.png" />
+    <Image Include="assets\cards\red_8.png" />
+    <Image Include="assets\cards\red_9.png" />
+    <Image Include="assets\cards\red_d.png" />
+    <Image Include="assets\cards\red_p.png" />
+    <Image Include="assets\cards\red_s.png" />
+    <Image Include="assets\cards\special_c.png" />
+    <Image Include="assets\cards\special_p.png" />
+    <Image Include="assets\cards\yellow_0.png" />
+    <Image Include="assets\cards\yellow_1.png" />
+    <Image Include="assets\cards\yellow_2.png" />
+    <Image Include="assets\cards\yellow_3.png" />
+    <Image Include="assets\cards\yellow_4.png" />
+    <Image Include="assets\cards\yellow_5.png" />
+    <Image Include="assets\cards\yellow_6.png" />
+    <Image Include="assets\cards\yellow_7.png" />
+    <Image Include="assets\cards\yellow_8.png" />
+    <Image Include="assets\cards\yellow_9.png" />
+    <Image Include="assets\cards\yellow_d.png" />
+    <Image Include="assets\cards\yellow_p.png" />
+    <Image Include="assets\cards\yellow_s.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8F6EA2CE-AB59-41CD-B0BB-86285586E249}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>UNO</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>UNO</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\SDL2_image\include;C:\Users\Martin\Downloads\SDL2-devel-2.0.9-VC\SDL2-2.0.9\include;C:\Users\Martin\Downloads\SDL2_image-2.0.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Martin\Downloads\SDL2_image-2.0.4\lib\x86;C:\Users\Martin\Downloads\SDL2-devel-2.0.9-VC\SDL2-2.0.9\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\SDL2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Martin\Downloads\SDL2-devel-2.0.9-VC\SDL2-2.0.9\include;C:\Users\Martin\Downloads\SDL2_image-2.0.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Martin\Downloads\SDL2_image-2.0.4\lib\x86;C:\Users\Martin\Downloads\SDL2-devel-2.0.9-VC\SDL2-2.0.9\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\Martin\Downloads\SDL2-devel-2.0.9-VC\SDL2-2.0.9\include;C:\Users\Martin\Downloads\SDL2_image-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Martin\Documents\Projects\Visual Studio\UNO;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL.h;SDL2main.h;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
