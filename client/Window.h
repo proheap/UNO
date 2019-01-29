@@ -55,7 +55,8 @@ public:
 	inline bool running() { return _open; };
 
 private:
-	char _ip[16] = "85.248.11.92";
+	//insert ip of server here
+	char _ip[16] = "insert ip here";
 	char _buffer[9];
 	Client* _client;
 	SOCKET _socket;
