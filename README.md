@@ -7,6 +7,9 @@ UNO game in C++
 - Martin Mišík
 - Erik Kostelansky
 
+### VERSION
+- 1.0
+
 ----------------------------------------------------------------------------------------------------------------------------------
 ### ASSIGNMENT
 Multiplayer game UNO for 2 - 4 players via network.
