@@ -1,5 +1,5 @@
 # UNO  
-[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)]
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 [![Latest 1.0](https://img.shields.io/badge/latest-v1.0-red.svg?style=flat-square)]()  
 UNO game in C++
 
