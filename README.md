@@ -4,7 +4,7 @@
 UNO game in C++
 
 ---
-### TEAM 
+### AUTHORS
 - *Matúš Halička*
 - *Martin Mišík*
 - *Erik Kostelansky*
