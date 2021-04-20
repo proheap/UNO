@@ -3,7 +3,7 @@
 [![Latest 1.0](https://img.shields.io/badge/latest-v1.0-red.svg?style=flat-square)]()  
 UNO game in C++
 
-----------------------------------------------------------------------------------------------------------------------------------
+---
 ### TEAM 
 - Matúš Halička
 - Martin Mišík
@@ -12,7 +12,7 @@ UNO game in C++
 ### VERSION
 - 1.0
 
-----------------------------------------------------------------------------------------------------------------------------------
+---
 ### ASSIGNMENT
 Multiplayer game UNO for 2 - 4 players via network.
 - Players are connecting to server, on which games are running.
