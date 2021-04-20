@@ -5,12 +5,12 @@ UNO game in C++
 
 ---
 ### TEAM 
-- Matúš Halička
-- Martin Mišík
-- Erik Kostelansky
+- *Matúš Halička*
+- *Martin Mišík*
+- *Erik Kostelansky*
 
 ### VERSION
-- 1.0
+- *1.0*
 
 ---
 ### ASSIGNMENT
